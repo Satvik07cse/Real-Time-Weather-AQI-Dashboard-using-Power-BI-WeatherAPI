@@ -34,17 +34,15 @@ This project is a dynamic **Power BI dashboard** that integrates real-time weath
 ### 🔑 Step 1: Get Your API Key
 Sign up at [WeatherAPI.com](https://www.weatherapi.com/) and get your free API key.
 
----### 🌐 Step 2: API URLs Used
+---
+
+### 🌐 Step 2: API URLs Used
 
 #### Current Weather:
 https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=CITY_NAME
 
 #### 7-Day Forecast:
 https://api.weatherapi.com/v1/forecast.json?key=YOUR_API_KEY&q=CITY_NAME&days=7
-
-yaml
-Copy
-Edit
 
 ---
 
