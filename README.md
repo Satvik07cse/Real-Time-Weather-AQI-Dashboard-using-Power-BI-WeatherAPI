@@ -29,14 +29,6 @@ This project is a dynamic **Power BI dashboard** that integrates real-time weath
 - Color-coded AQI levels
 - Health suggestions & status based on AQI
 
----
-
-## 📸 Dashboard Preview
-
-![Dashboard Screenshot](./Screenshot%202025-07-11%20182605.png)
-
----
-
 ## 🛠️ How It Works
 
 ### 🔑 Step 1: Get Your API Key
@@ -79,6 +71,3 @@ Edit
 - ☣️ AQI Panel: DAX-driven visuals (Color, Status, Suggestion)
 
 ---
-
-📥 Download the Report (.pbix)
-➡️ Click here to download WeatherDashboard.pbix
