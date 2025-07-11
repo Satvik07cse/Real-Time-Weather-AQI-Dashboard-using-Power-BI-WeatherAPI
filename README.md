@@ -58,20 +58,25 @@ Edit
 
 ### 🧠 Step 3: Load into Power BI
 
-1. Get Data → Web → Paste API URLs
-2. Expand JSON fields: `current`, `condition`, `air_quality`, `forecast`
-3. Add a custom column for city name
-4. Clean and load into the model
+1. Go to **Home → Get Data → Web**
+2. Load both current and forecast endpoints
+3. Expand nested JSON:
+   - `current`, `condition`, `air_quality`
+   - `forecast.forecastday` (for temperature & rain)
+4. Add a `City` column
+5. Clean and rename columns
+6. Click **Close & Apply**
 
 ---
 
-### 🎨 Step 4: Design Dashboard
+## 🎨 Visualizations
 
-- Cards for Temperature, Humidity, UV, etc.
-- Line charts for forecast
-- Rain probability bar chart
-- AQI tiles with icons, colors, and DAX-based suggestions
-
+- 💳 Cards: Temperature, Humidity, UV, Pressure, Wind Speed
+- 📈 Line Chart: 7-Day Forecasted Temperatures
+- 📊 Bar Chart: Daily Rain Probabilities
+- 🕗 Sunrise & Sunset times
+- 🧭 Map View: Plot of Cities
+- ☣️ AQI Panel: DAX-driven visuals (Color, Status, Suggestion)
 
 ---
 
